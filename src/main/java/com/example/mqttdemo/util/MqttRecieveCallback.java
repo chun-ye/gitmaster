@@ -19,7 +19,7 @@ public class MqttRecieveCallback implements MqttCallback {
 
     @Override
     public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
-        System.out.println("Client 接收消息主题 : " + s);
+        System.out.println("Client 接收消息主题ss : " + s);
         System.out.println("Client 接收消息Qos : " + mqttMessage.getQos());
         System.out.println("Client 接收消息内容 : " + new String(mqttMessage.getPayload()));
 
